@@ -1,0 +1,13 @@
+site_name: Search Test v5
+site_url: "http://localhost:8000"
+theme:
+  name: material
+
+plugins:
+  - search:
+      separator: '[\s\-/\\]+'
+      lang:
+        - en
+
+nav:
+  - index.md

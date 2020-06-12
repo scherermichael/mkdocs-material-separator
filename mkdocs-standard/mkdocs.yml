@@ -1,0 +1,11 @@
+site_name: Search Test MkDocs Standard Template
+site_url: "http://localhost:8000"
+
+plugins:
+  - search:
+      separator: '[\s\-/\\]+'
+      lang:
+        - en
+
+nav:
+  - index.md
